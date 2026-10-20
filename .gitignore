@@ -1,0 +1,31 @@
+# External inputs, regenerated outputs, and model artifacts are not code releases.
+/data/
+/results/
+*.pdb
+*.cif
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.log
+*.zip
+
+# Local environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+CODE_PROVENANCE.json
+INPUTS.md
+INPUT_MANIFEST.tsv
+VALIDATION.md
